@@ -180,7 +180,7 @@ imbalanced-learn
 ### Performance by Emoji Category:
 - **High Performance** (F1 > 0.95): Fire 🔥, Camera 📷, Sun ☀️, Hundred points 💯
 - **Medium Performance** (F1 = 0.85-0.95): Most emoji categories
-- **Lower Performance** (F1 < 0.85): Red heart ❤️ (due to class overlap and ambiguity)
+- **Lower Performance** (F1 < 0.85): Red heart ❤️ and Smiling face with heart-eyes 😍 (due to class overlap and ambiguity)
 
 ### Training Insights:
 - **Early Stopping**: Prevented overfitting in deep learning models
@@ -194,25 +194,3 @@ Each model includes comprehensive evaluation:
 - **Classification Report**: Precision, recall, and F1-score for each emoji class
 - **Training History**: Loss and accuracy curves for deep learning models
 - **Cross-validation**: Robust performance estimation
-
-## 🎯 Future Improvements
-
-1. **Advanced Architectures**: Transformer-based models (BERT, RoBERTa)
-2. **Feature Enhancement**: Include user metadata, tweet context
-3. **Multi-label Classification**: Support multiple emoji predictions
-4. **Real-time Deployment**: Web service for live emoji prediction
-5. **Expanded Dataset**: Include more recent tweets and emoji categories
-
-## 👨‍💻 Author
-
-**Kartik Garg**
-- GitHub: [KartikGarg20526](https://github.com/KartikGarg20526)
-- Project: Emoji Prediction using Twitter Data
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-*This project demonstrates the application of both traditional machine learning and deep learning approaches to natural language processing tasks, showcasing the effectiveness of different modeling strategies for emoji prediction from social media text.*
